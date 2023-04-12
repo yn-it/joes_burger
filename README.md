@@ -1,4 +1,4 @@
-# joes_burger
+# Joe's Burger (架空のハンバーガーショップサイト)
 架空のハンバーガーショップのサイトです。
 
 リンクは[こちら](https://yn-it.com/joes_burger/index.html)
