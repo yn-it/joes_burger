@@ -1,1 +1,7 @@
-.DS_Store
+# 無視無視ファイル
+*.DS_Store
+
+# assets
+fonts
+images
+node_modules
