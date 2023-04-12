@@ -10,6 +10,15 @@ Bootstrap 5の修行で
 
 1ページのみ作成しましたので、ページ内リンクのみです。
 
-商品メニューをカテゴリー毎に表示させたかったので
-jQueryのプラグイン「Isotope」を使い
+商品メニューをカテゴリー毎に表示させたかったので  
+jQueryのプラグイン「Isotope」を使い  
 ソートして表示出来るようにしました。
+
+Bootstrap 5のカラーパレットを普通に使うのは  
+面白くないので自前のSassファイルに  
+新たにカスタムカラーパレットを3色作り  
+map-merge 関数で連結して使えるようにしました。  
+
+
+## Screenshot
+![Joe's Burger](https://github.com/yn-it/memottatter/blob/screenshot_1.png "Joe's Burger")
