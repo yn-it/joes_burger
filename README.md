@@ -17,7 +17,8 @@ jQueryのプラグイン「Isotope」を使い
 Bootstrap 5のカラーパレットを普通に使うのは  
 面白くないので自前のSassファイルに  
 新たにカスタムカラーパレットを3色作り  
-map-merge 関数で連結して使えるようにしました。  
+「map-merge」関数で連結して「bootstrap.min.css」に挿入して  
+使えるようにしました。  
 
 
 ## Screenshot
