@@ -21,4 +21,4 @@ map-merge 関数で連結して使えるようにしました。
 
 
 ## Screenshot
-![Joe's Burger](https://github.com/yn-it/memottatter/blob/screenshot_1.png "Joe's Burger")
+![Joe's Burger](https://github.com/yn-it/joes_burger/blob/main/screenshot_1.png "Joe's Burger")
