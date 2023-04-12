@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../../fonts/Lobster/Lobster-Regular.ttf") format("truetype");
+}
+/* base styles */
+*::selection {
+  background-color: #feef00 !important;
+  color: #c60a1c !important;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #feef00;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c60a1c;
+  border-radius: 8px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+.title h2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  width: 4px;
+  height: 50px;
+  transform: translateY(-50%);
+  background-color: #c60a1c;
+}
+
+.custom-btn {
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 1px solid #555;
+  background-color: transparent !important;
+}
+.custom-btn:hover {
+  background-color: #feef00 !important;
+  border-color: #feef00 !important;
+  color: #c60a1c !important;
+}
+
+.active-filter-btn {
+  background-color: #feef00 !important;
+  border-color: #feef00 !important;
+  color: #c60a1c !important;
+}
+
+/* navbar */
+.navbar {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand-img {
+  width: 40px;
+  height: auto;
+}
+.navbar-brand-name {
+  font-family: "Lobster", cursive;
+}
+.navbar-toggler-iconWrapper {
+  width: 35px;
+  height: 35px;
+}
+@media (min-width: 992px) {
+  .navbar-toggler-iconWrapper {
+    display: none !important;
+  }
+}
+.navbar-toggler-icon {
+  background-image: url("../../images/menu-icon.png");
+}
+
+/* nav link */
+.nav-link {
+  position: relative;
+}
+.nav-link::before {
+  width: 0;
+  height: 2px;
+  background: #c60a1c;
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 0;
+  transition: all 0.3s;
+  margin: auto;
+  display: block;
+}
+@media (min-width: 992px) {
+  .nav-link {
+    margin: 0;
+    padding: 10px;
+  }
+  .nav-link:hover {
+    color: #c60a1c !important;
+  }
+  .nav-link:hover::before {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/* header */
+.header {
+  padding-top: 84px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../../images/hero.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+/* hero */
+.hero {
+  letter-spacing: 1px;
+}
+.hero-title h1 {
+  font-size: 40px;
+  font-family: "Lobster", cursive;
+}
+@media (min-width: 768px) {
+  .hero-title h1 {
+    font-size: 60px;
+  }
+}
+.hero-brand {
+  font-family: "Lobster", cursive;
+}
+.hero .btn {
+  background-color: transparent;
+  border-color: #f8f9fa;
+}
+.hero .btn:hover {
+  background-color: #feef00 !important;
+  border-color: #feef00 !important;
+  color: #c60a1c !important;
+}
+
+/* menu */
+.menu-box {
+  min-height: 430px;
+  background-color: #fff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.menu-img img {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+}
+.menu-icon {
+  top: 15px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-color: #feef00;
+  color: #c60a1c;
+  cursor: pointer;
+}
+.menu-icon i {
+  font-size: 22px;
+}
+
+/* specials */
+.specials-box {
+  min-height: 430px;
+  background-color: #fff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.specials-img img {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+}
+.specials-icon {
+  top: 15px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-color: #feef00;
+  color: #c60a1c;
+  cursor: pointer;
+}
+.specials-icon i {
+  font-size: 22px;
+}
+
+/* about */
+.about-logo {
+  font-size: 40px;
+}
+.about-title, .about-brand {
+  font-family: "Lobster", cursive !important;
+}
+
+/* blogs */
+.blogs .custom-btn {
+  margin-right: 15px;
+}
+.blogs-img {
+  margin: 0 auto;
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.blogs-link:hover {
+  text-decoration: none;
+}
+
+/* mail */
+.mail-form {
+  max-width: 500px;
+}
+.mail-input {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.mail-btn {
+  border-color: #c60a1c !important;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.mail-btn:hover {
+  background-color: #feef00 !important;
+  border-color: #feef00 !important;
+  color: #c60a1c !important;
+}
+
+/* footer */
+.footer-logo {
+  font-family: "Lobster", cursive;
+  font-size: 40px !important;
+}
+.footer-link {
+  transition: all 0.5s;
+}
+.footer-link:hover {
+  margin-left: 5px;
+}
+.footer-sns-icon {
+  transition: all 0.3s;
+}
+.footer-sns-icon:hover {
+  color: #c60a1c !important;
+}/*# sourceMappingURL=app.css.map */
