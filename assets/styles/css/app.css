@@ -112,12 +112,11 @@ body {
 /* header */
 .header {
   padding-top: 84px;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../../images/hero.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url("../../images/hero.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  opacity: 0.8;
 }
 
 /* hero */
